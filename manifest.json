@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Muzi Song Downloader",
+	"description": "As name depicts it download song which you are playing on muzi",
+	"version": "1.0",
+	
+	"permissions": [ "https://sdslabs.co.in/muzi" ],
+	
+	"browser_action": {
+		"default_icon": "muzi.png",
+		//"default_popup": "index.html",
+		"default_title" : "Muzi Song Downloader"
+	},
+	
+	"background": {
+		"scripts":["background.js"],
+		"persistent":false
+	}
+	
+}
